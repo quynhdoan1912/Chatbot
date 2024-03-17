@@ -1,0 +1,610 @@
+{
+  "intents": [
+    {
+      "tag": "chào hỏi",
+      "patterns": [
+        "Xin chào",
+        "Một ngày tốt lành!",  
+        "Alo",
+        "Tôi có câu hỏi."
+      ],
+      "responses": [
+        "Chào bạn, tôi là trợ lý mua sắm của The Buziers. Tôi có thể giúp được gì cho bạn?",
+        "Xin chào, tôi là trợ lý mua sắm của The Buziers. Bạn cần tôi giúp gì nhỉ?",
+        "Chào bạn, tôi là trợ lý ảo của The Buziers. Bạn muốn hỏi điều gì?",
+        "Chào bạn, tôi ở đây để hỗ trợ. Bạn cần giúp đỡ về điều gì?"
+      ]
+    },
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-) My name is The Buziers!",
+        "Hello, thanks for visiting. My name is The Buziers!",
+        "Hi there, My name is The Buziers!. What can I do for you?",
+        "Hi there, My name is The Buziers! How can I help?"
+      ]
+    },
+
+    {
+      "tag": "cá nhân",
+      "patterns": [
+        "Bạn có khỏe không?",
+        "Bạn đang cảm thấy thế nào?",
+        "Ngày hôm nay của bạn như thế nào?"
+      ],
+      "responses": [
+        "Tôi khỏe, cảm ơn bạn đã hỏi. Còn bạn thì sao?",
+        "Tôi khỏe, cảm ơn bạn. Bạn có cần tôi giúp đỡ gì không?",
+        "Tôi cảm thấy rất tốt, cảm ơn bạn đã hỏi. Bạn cần tôi giúp gì hôm nay?"
+      ]
+    },
+
+    {
+      "tag": "personal",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How is your day?"
+      ],
+      "responses": [
+        "I'm good, all's good, thanks. How about you?"
+      ]
+    },
+
+    {
+      "tag": "phản hồi khách hàng",
+      "patterns": [
+        "Tôi khỏe",
+        "Tôi ổn",
+        "Tôi đang rất tốt",
+        "Tôi khá khỏe"
+      ],
+      "responses": [
+        "Thật vui khi nghe bạn nói điều đó.",
+        "Rất vui khi bạn cảm thấy như thế!"
+      ]
+    },   
+
+    {
+      "tag": "user response",
+      "patterns": [
+        "I'm good",
+        "Im good",
+        "Im doing good",
+        "I am good",
+        "I am okay"
+      ],
+      "responses": [
+        "Great to hear you are doing good."
+      ]
+    },   
+
+    {
+      "tag": "tạm biệt",
+      "patterns": ["Hẹn gặp lại", "Chào tạm biệt", "Bye"],
+      "responses": [
+        "Hẹn gặp lại bạn, cảm ơn đã ghé thăm. Hy vọng tôi đã giúp được bạn.",
+        "Chúc bạn một ngày tốt lành!"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting. Hope I was able to help!",
+        "Have a nice day. Hope I was able to help!"
+      ]
+    },
+
+    {
+      "tag": "cảm ơn",
+      "patterns": ["Cảm ơn bạn", "Thật có ích", "Cảm ơn", "tks"],
+      "responses": ["Rất vui khi giúp được bạn!", "Hãy hỏi tôi bất cứ khi nào bạn cần nhé!", "Rất hân hạnh được phục vụ bạn."]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "thx", "thnks"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "mặt hàng",
+      "patterns": [
+        "Tôi có thể mua những gì?",
+        "Bạn có mặt hàng nào nổi bật không?"
+      ],
+      "responses": [
+        "Tìm kiếm mặt hàng mà bạn cần trong thanh tìm kiếm của cửa hàng của chúng tôi để xem tất cả các sản phẩm có sẵn."      ]
+    },
+
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you offer?",
+        "What can I buy?"
+      ],
+      "responses": [
+        "Search your preference in our flagship store's search bar to see all available products. "
+      ]
+    },
+
+    {
+      "tag": "thanh toán",
+      "patterns": [
+        "Mình thanh toán bằng hình thức gì?",
+        "Làm sao để thanh toán?",
+        "Có nhận thẻ Vietcombank không?"],
+      "responses": [
+        "Chúng tôi chấp nhận hình thức thanh toán bằng VISA, Mastercard và tiền mặt."
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Cash?",
+        "Are you cash only?",
+        "What are your payment methods?",
+        "How do I pay?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Cash"
+      ]
+    },
+
+    {
+      "tag": "theo dõi",
+      "patterns": [
+        "Làm thế nào để theo dõi đơn hàng của tôi?",
+        "Tôi muốn theo dõi đơn hàng của mình.",
+        "Tôi có thể theo dõi đơn hàng không?",
+        "Theo dõi đơn hàng"
+      ],
+      "responses": [
+        "Bạn vui lòng truy cập trang đơn hàng, chọn 'Chi tiết đơn hàng', chọn 'Theo dõi đơn hàng' và kiểm tra trạng thái nhé!"
+      ]
+    },
+
+    {
+      "tag": "track",
+      "patterns": [
+        "How can I track my order", 
+        "I want to track my order", 
+        "Can I track my order", 
+        "Track order"
+      ],
+      "responses": [
+        "Visit the order page, click on the specific order, select 'track my order', and check the status"
+      ]
+    },
+
+    {
+      "tag": "giao hàng",
+      "patterns": [
+        "Giao hàng mất bao lâu?",
+        "Vận chuyển mất bao lâu?",
+        "Hãy cho tôi biết việc giao hàng của đơn hàng của tôi",
+        "Khi nào tôi nhận được hàng?",
+        "Tại sao đơn đặt hàng của tôi vẫn chưa tới?"
+      ],
+      "responses": [
+        "Thời gian giao hàng là từ 2 đến 4 ngày. Xin vui lòng chờ đời.",
+        "Thời gian vận chuyển là từ 2 đến 4 ngày. Xin vui lòng chờ đời."
+      ]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "Please Tell me about my delivery",
+        "When do I get my delivery?",
+        "Why is my order not delivered yet"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days. Please bear with us!",
+        "Shipping takes 2-4 days.  Please bear with us!"
+      ]
+    },
+
+    {
+      "tag": "xác nhận",
+      "patterns": [
+        "Tôi đã thanh toán nhưng không nhận được xác nhận đơn hàng. Tôi nên làm gì?",
+        "Thanh toán đã hoàn tất nhưng không có xác nhận.",
+        "Đơn đặt hàng chưa được xác nhận.",
+        "Tiền đã bị trừ nhưng đơn hàng chưa được xác nhận."
+      ],
+      "responses": [
+        "The Buziers rất tiếc, bạn vui lòng liên hệ hotline: 012345678 để được hỗ trợ sớm nhất về đơn hàng nhé!",
+        "Việc xác nhận có thể mất đến 24 giờ, vui lòng chờ đợi! Nhấn 'Cần trợ giúp?' để được hỗ trợ thêm nha!"
+      ]
+    },
+
+    {
+      "tag": "confirm",
+      "patterns": [
+        "My payment was processed successfully but I didn't get any order confirmation. What should I do?",
+        "Payment was completed but no confirmation",
+        "Order was not confirmed",
+        "Money deducted but order is not confirmed"
+      ],
+      "responses": [
+        "The Buziers sends you an Email & SMS upon confirmation of your order. If it requires manual confirmation, our team will contact you within 24 hours after order placement. Delay in confirmation SMS may occur due to network error, you may receive it with a delay.",
+        "It takes upto 24 hours for confirmation, please bear with us! Type Need more help for more assistance. "
+      ]
+    },
+
+    {
+      "tag": "chậm trễ",
+      "patterns": [
+        "Tại sao đơn hàng của tôi bị trễ?",
+        "Liệu đơn hàng của tôi có bị trễ không?",
+        "Tại sao đơn hàng của tôi vẫn chưa được giao?",
+        "Khi nào tôi nhận được giao hàng?"
+      ],
+      "responses": [
+        "Chúng tôi thật sự rất tiếc nếu có sự chậm trễ trên đơn hàng của bạn! Nếu đơn hàng của bạn nằm trong khoảng thời gian giao hàng, chúng tôi khuyên bạn hãy chờ đợi trong thời gian này vì Đội ngũ Giao hàng của chúng tôi sẽ cố gắng giao hàng cho bạn trong 3 lần giao!",
+        "Nếu đơn hàng của bạn bị trễ hơn 3 ngày sau thời gian giao hàng, có thể có vấn đề vận chuyển gây ra sự chậm trễ trên. Xin vui lòng nhập 'Những lý do phổ biến gây trễ giao hàng' để biết thêm thông tin chi tiết về điều này.",
+        "Chúng tôi hy vọng bạn có thể chờ đợi cho việc giao hàng của bạn, vì hầu hết các đơn hàng được giao thành công trong khoảng thời gian này.",
+        "Nếu đơn hàng của bạn bị trễ hơn 3 ngày, do có thể có các vấn đề không mong muốn gây ra việc giao hàng trễ, bạn có thể nhấp vào 'Cần thêm sự giúp đỡ'"
+      ]
+    },
+
+    {
+      "tag": "delay",
+      "patterns": [
+        "Why is my order delayed? ",
+        "Did my order get delayed?",
+        "Why is my order not delivered yet?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "We are really sorry if there has been a delay in your order! If your order is within delivery period, We recommend you to please wait during this period since our Delivery Heroes make 3 attempts to deliver your order!",
+        "If your order is past up to 3 days after delivery period, There may be logistic issues causing a delay in delivery. Please type 'Common reasons for delivery delay' to know more about this.",
+        "We appreciate if you could wait for your items as most orders are delivered successfully within this period.",
+        "If your order is past more than 3 days, Since there may be unexpected issues causing delivery delays, you can click on 'Need more Help' for further assistance."
+      ]
+    },
+
+    {
+      "tag": "lí do",
+      "patterns": [
+        "Những nguyên nhân phổ biến gây trễ giao hàng",
+        "Nguyên nhân phổ biến gây trễ giao hàng",
+        "Nguyên nhân gây trễ",
+        "Trễ giao hàng"
+      ],
+      "responses": [
+        "Những nguyên nhân bao gồm vấn đề về nguồn cung cấp từ người bán, vấn đề vận chuyển, trễ giao hàng qua biên giới, địa chỉ hoặc số điện thoại sai, và sự không có mặt của khách hàng."
+      ]
+    },
+
+    {
+      "tag": "reasons",
+      "patterns": [
+        "Common reasons for delivery delay",
+        "common reasons for delivery delay",
+        "reasons for delay",
+        "delivery delay"
+      ],
+      "responses": [
+        "Reasons include Seller Sourcing Issues, Courier Issues, Cross Border shipment delay, Wrong Address or Phone Number, and Unavailability of Customer. "
+      ]
+    },
+
+    {
+      "tag": "thêm",
+      "patterns": [
+        "Cần thêm sự giúp đỡ",
+        "Giúp tôi thêm",
+        "Tôi có thể nói chuyện với một nhân viên không?",
+        "Tôi có thể gọi tới dịch vụ khách hàng không?",
+        "Số hỗ trợ khách hàng",
+        "Làm thế nào để liên hệ với dịch vụ khách hàng?",
+        "Số điện thoại dịch vụ khách hàng",
+        "Số liên hệ để được giúp đỡ",
+        "Số điện thoại hỗ trợ",
+        "Làm thế nào để trở thành người bán?",
+        "Làm thế nào để liên hệ với người bán?"
+      ],
+      "responses": [
+        "Liên hệ với chúng tôi để biết thêm thông tin tại đây: Điện thoại: 012-345-6789. Thời gian làm việc từ 09:00 sáng đến 05:00 chiều từ thứ Hai đến thứ Bảy."
+      ]
+    },
+
+    {
+      "tag": "more",
+      "patterns": [
+        "Need more help",
+        "help me more",
+        "can I talk to an agent",
+        "can I call customer service",
+        "customer support number",
+        "how to contact customer service",
+        "customer service number",
+        "contact number for help",
+        "helpline number",
+        "How to become a seller",
+        "How to contact a seller"
+      ],
+      "responses": [
+        "Contact us for further information here: Phone: 012-345-6789. Timings are from 09:00 AM to 05:00 PM from Monday to Saturday."
+      ]
+    },
+
+    {
+      "tag": "hủy",
+      "patterns": [
+        "Tôi có thể hủy đơn hàng của mình không?",
+        "Tại sao đơn hàng của tôi bị hủy?",
+        "Làm thế nào để tôi có thể hủy đơn hàng của mình?",
+        "Tôi có thể hủy một đơn hàng không?"
+      ],
+      "responses": [
+        "Đơn hàng chỉ có thể bị hủy trong vòng 7 ngày sau khi đặt hàng. Các sản phẩm sau khoảng thời gian đó không đủ điều kiện để được hoàn tiền.",
+        "Truy cập trang Đơn hàng của tôi để kiểm tra chi tiết trạng thái của các đơn hàng."
+      ]
+    },
+
+    {
+      "tag": "cancel",
+      "patterns": [
+        "Can I cancel my order?",
+        "Why is my order cancelled?",
+        "How do I can cancel my order",
+        "Can I cancel an order"
+      ],
+      "responses": [
+        "Order can only be cancelled within 7 days of placement. Digital goods do not qualify for refund.",
+        "Visit my orders page to check status of specific orders."
+      ]
+    },
+
+    {
+      "tag": "hoàn trả",
+      "patterns": [
+        "Tôi có thể hoàn trả sản phẩm không?",
+        "Tôi muốn hoàn trả sản phẩm",
+        "Tôi có thể hoàn trả đơn hàng của mình không?",
+        "Có chính sách hoàn trả không?"
+      ],
+      "responses": [
+        "Đơn hàng chỉ có thể bị hủy trong vòng 7 ngày sau khi đặt hàng. Các sản phẩm sau khoảng thời gian đó không đủ điều kiện để được hoàn tiền.",
+        "Truy cập trang Đơn hàng của tôi để kiểm tra chi tiết trạng thái của các đơn hàng."
+      ]
+    },
+
+    {
+      "tag": "refund",
+      "patterns": [
+        "Can I refund an item.",
+        "I want to refund an item",
+        "can I refund my order",
+        "Are refunds available"
+      ],
+      "responses": [
+        "Refund can only be issued within 7 days of placement. Digital goods do not qualify for refund.",
+        "Visit my orders page to check for specific orders."
+      ]
+    },
+
+    {
+      "tag": "trạng thái hoàn trả",
+      "patterns": [
+        "Tại sao trạng thái được ghi là Đã hoàn trả khi tôi chưa nhận được tiền?",
+        "Không có hoàn trả mặc dù trạng thái ghi là Đã hoàn trả",
+        "Không có hoàn trả khi trạng thái ghi là Đã hoàn trả",
+        "Tôi không nhận được số tiền hoàn trả của mình",
+        "Chưa nhận được tiền hoàn trả"
+      ],
+      "responses": [
+        "Vui lòng kiên nhẫn vì việc hoàn trả có thể mất đến 30 ngày để được chuyển vào tài khoản ngân hàng của bạn. Nếu gặp vấn đề, bạn vui lòng liên hệ Hotline: 012-345-6789."
+      ]
+    },
+
+    {
+      "tag": "refund status",
+      "patterns": [
+        "Why is the status Refunded when it's not credited?",
+        "No refund even though status is refunded",
+        "No refund when status says refunded",
+        "I did not receive my refund money",
+        "Refund money not received"
+      ],
+      "responses": [
+        "Please be patient as refunds take upto 30 days to receive into bank. "
+      ]
+    },
+{
+    "tag": "trả lại",
+    "patterns": [
+        "Trong bao lâu tôi sẽ nhận lại hàng sau khi đổi trả?",
+        "Khi nào tôi sẽ nhận lại hàng đã trả?",
+        "Khi nào tôi có thể nhận được hoàn tiền cho hàng đã trả?",
+        "Có hoàn tiền cho hàng đổi trả không?"
+    ],
+    "responses": [
+        "Quá trình đổi trả mất từ 6 đến 10 ngày làm việc. Quy trình đổi trả bao gồm 2 bước. Trong bước đầu tiên, chúng tôi kiểm tra các sản phẩm mà bạn đã gửi để xác minh vấn đề bạn đã đề cập trong yêu cầu đổi trả của mình. Sau khi chúng tôi đã xác minh và chấp nhận đổi trả của bạn, chúng tôi sẽ bắt đầu quy trình hoàn tiền, mất 1 ngày làm việc đối với ví The Buziers và 2-10 ngày làm việc cho ngân hàng hoặc thẻ thanh toán."
+    ]
+      },
+
+    {
+      "tag": "return",
+      "patterns": [
+        "How long do return items take",
+        "When will my items be returned",
+        "When can I get a refund for return items?",
+        "Are refunds available for return?"
+      ],
+      "responses": [
+        "Return takes 6 to 10 business days. There are 2 parts to the return process. In the first part, we check the items received from you to verify the issue highlighted in your return claim. Once we've verified and accepted your return, we initiate the refund process which takes 1 business day for The Buziers wallet and 2-10 business days for bank or card. "
+      ]
+    },
+    
+    {
+      "tag": "rút tiền hoàn trả",
+      "patterns": [
+        "Làm thế nào để rút tiền hoàn trả từ ví?",
+        "Rút tiền từ tài khoản",
+        "Tôi có thể rút tiền hoàn trả được không?"
+      ],
+      "responses": [
+        "Rút tiền hoàn trả từ ví của bạn rất dễ dàng. Vui lòng làm theo các bước dưới đây: Bước 1: Nhấn vào biểu tượng 'Ví' ở góc phải trên cùng của ứng dụng The Buziers. Bước 2: Nhấn vào biểu tượng 'Chi tiết Số dư'. Bước 3: Nhấn vào nút 'Rút tiền'. Bước 4: Nhập thông tin tài khoản ngân hàng của bạn và nhấn 'Rút tiền'. Bước 5: Bạn sẽ nhận được một email xác nhận, nhấn xác nhận để bắt đầu yêu cầu rút tiền của bạn."
+      ]
+    },
+
+    {
+      "tag": "withdraw refunds",
+      "patterns": [
+        "How to withdraw refunds from wallet?",
+        "Withdraw funds",
+        "Can I withdraw refunds"
+      ],
+      "responses": [
+        "Withdrawing refunds from your wallet is very easy. Please follow the steps below: Step 1: Click on the 'Wallet' icon on the top right corner of the Daraz App, or click here. Step 2: Click on the 'Balance Details' Icon. Step 3: Click on 'Withdraw' button. Step 4: Enter your bank account details and click 'Withdraw'. Step 5: You will receive a verification email, click confirm to initiate your withdrawal request."
+      ]
+    },
+
+    {
+      "tag": "trạng thái đơn hàng",
+      "patterns": [
+        "Trạng thái đơn hàng của tôi là gì?",
+        "Tôi muốn biết trạng thái trả hàng của mình",
+        "Làm thế nào để kiểm tra trạng thái trả hàng"
+      ],
+      "responses": [
+        "Vui lòng truy cập trang Đơn hàng của tôi để xem danh sách các đơn hàng đã xác nhận của bạn."
+      ]
+    },
+
+    {
+      "tag": "order status",
+      "patterns": [
+        "What is my order status",
+        "I want to know my return status",
+        "How to return status"
+      ],
+      "responses": [
+        "Please visit the My Orders page for a list of your confirmed orders."
+      ]
+    },
+
+    {
+      "tag": "sử dụng voucher",
+      "patterns": [
+        "Làm thế nào để sử dụng phiếu giảm giá?",
+        "Tôi có thể sử dụng phiếu giảm giá được không?",
+        "Cách sử dụng phiếu giảm giá là gì?"
+      ],
+      "responses": [
+        "Bạn có thể thêm một phiếu giảm giá bằng cách nhấp vào Giỏ hàng của tôi > Thanh toán > Nhập mã phiếu giảm giá > ÁP DỤNG."
+      ]
+    },
+
+    {
+      "tag": "use voucher",
+      "patterns": [
+        "How to use a voucher?",
+        "Can I use a voucher?",
+        "How to use a voucher?"
+      ],
+      "responses": [
+        "You can add a voucher by clicking on My Cart > Check Out > Enter Voucher Code > APPLY. "
+      ]
+    },
+
+        {
+      "tag": "thông tin khách hàng",
+      "patterns": [
+        "Làm thế nào để thay đổi thông tin hồ sơ của tôi",
+        "Tôi muốn thay đổi mật khẩu của mình",
+        "Tôi muốn thay đổi số điện thoại của mình",
+        "Tôi muốn thay đổi địa chỉ của mình",
+        "Tôi muốn đặt lại mật khẩu của mình",
+        "Tôi muốn xóa tài khoản của mình",
+        "Xóa tài khoản của tôi"
+      ],
+      "responses": [
+        "Bạn có thể dễ dàng thêm hoặc thay đổi thông tin tài khoản của mình bằng cách làm theo các bước dưới đây: Bước 1: Nhấp vào 'Tài khoản', Bước 2: Nhấp vào 'Quản lý tài khoản của tôi' từ biểu tượng, Bước 3: Bạn có thể thay đổi hoặc chỉnh sửa tên, địa chỉ, địa chỉ email, số điện thoại di động, v.v., Bước 4: Nhập thông tin cần thiết và nhấp vào Lưu. Lưu ý: Bạn cũng có thể thay đổi địa chỉ giao hàng của mình từ trang Thanh toán trước khi thanh toán."
+      ]
+    },
+
+    {
+      "tag": "profile info",
+      "patterns": [
+        "How can I change my profile information",
+        "I want to change my password",
+        "I want to change my phone number",
+        "I want to change my address",
+        "I want to Reset my password",
+        "I want to delete my account",
+        "delete my account"
+      ],
+      "responses": [
+        "You can easily add or change your account details by following the steps below: Step 1: Click on 'Account', Step 2: Click on 'Manage my account' from the icon, Step 3: You change or edit your name, address, email address, mobile number, etc., Step 4: Fill in the required details, and click on Save. Note: You can also change your delivery address from the Checkout page before proceeding to pay."
+      ]
+    },
+
+        {
+      "tag": "App di động",
+      "patterns": [
+        "Tôi có thể tải ứng dụng di động của app không?",
+        "Ứng dụng di động",
+        "Tải ứng dụng di động"
+      ],
+      "responses": [
+        "Bạn có thể tải ứng dụng di động The Buziers từ cả IOS App Store và Google Play Store."
+      ]
+    },
+
+    {
+      "tag": "mobile app",
+      "patterns": [
+        "Can I download a mobile app for this?",
+        "Mobile app",
+        "Download mobile app"
+      ],
+      "responses": [
+        "You can download the Buziers Mobile App from both IOS App Store, and Google Play Store. "
+      ]
+    },
+
+    {
+      "tag": "đặt hàng",
+      "patterns": [
+        "Tôi muốn mua một chiếc áo thun và giao đến địa chỉ KTX Khu A ĐHQG TPHCM. Số điện thoại liên lạc của tôi là 012345678.",
+        "Cho tôi mua một chiếc áo thun và gửi đến địa chỉ KTX Khu A ĐHQG TPHCM. Số điện thoại của tôi là 012345678.",
+        "Tôi muốn đặt mua một chiếc áo thun và vui lòng gửi đến địa chỉ KTX Khu A ĐHQG TPHCM. Số điện thoại liên lạc của tôi là 012345678.",
+        "Xin vui lòng gửi một chiếc áo thun đến địa chỉ KTX Khu A ĐHQG TPHCM. Tôi có số điện thoại liên lạc là 012345678.",
+        "Tôi muốn mua một chiếc áo thun và yêu cầu giao đến địa chỉ KTX Khu A ĐHQG TPHCM, số điện thoại liên hệ của tôi là 012345678.",
+        "Cho tôi order 1 cái áo thun, địa chỉ KTX Khu B ĐHQG TPHCM, sdt 012345678",
+        "Tôi muốn đặt 1 ly cafe size nhỏ sdt 012345678 dc KTX Khu B DHQG TPHCM",
+        "Tôi muốn đặt 1 trà sữa size nhỏ số điện thoại 012345678 địa chỉ KTX Khu B DHQG TPHCM",
+        "Cho tôi order 1 ly cafe size lớn sdt 012345678 địa chỉ KTX Khu A ĐHQG TPHCM",
+        "1p bánh mì pate lụa, f1, 0702245557, giao lúc 6h15",
+        "1p chả trứng, b4, 0946805379, giao 7h 30, cho e thêm ớt xắt ạ,",
+        "1 bánh mì chả trứng,C6,giao tầm 8h,0981148781"
+      ],
+      "responses": [
+        "Đơn hàng của bạn đã được đặt!"
+      ]
+    } 
+  ]
+}
